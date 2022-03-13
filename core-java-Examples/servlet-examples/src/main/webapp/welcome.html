@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<a href="welcome.html">Homepage</a>
+	<h1>This is welcome.html file</h1>
+	<a href='generic1'>GenericServlet page</a>
+	<a href='firstServlet'>FirstServlet page</a>
+	<a href="secondServlet">SecondServlet page</a>
+
+	<div>
+		<fieldset>
+			Greeting
+			<form action="helloUser" method="get">
+				<input type="text" name="name" placeholder="Enter your name">
+				<input type="submit">
+			</form>
+		</fieldset>
+	</div>
+	<div>
+		<fieldset>
+		<form action="loginUser" method="post">
+			<legend>User Login</legend>
+			<table>
+				<tr>
+					<td>E-mail: </td> <td><input type="email" name="email"></td>
+				</tr>
+				<tr>
+					<td>Password: </td> <td><input type="password" name="password"> </td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit"></td>
+				</tr>
+			</table>
+		</form>
+		</fieldset>
+	</div>
+	
+	<div>
+		<form action="printtable" method="get"> 
+			<input type="number" name="number" placeholder="Enter number to print table">
+			<input type="submit">
+		</form>
+	</div>
+</body>
+</html>
